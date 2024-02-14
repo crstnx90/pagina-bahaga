@@ -1,0 +1,68 @@
+.dropdown-menu{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-inner{
+    max-height: 476px;
+}
+
+.carousel-item{
+    max-height: 476px;
+    background: transparent;
+    overflow: visible;
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+.colend{
+    color: aliceblue;
+}
+
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .form-container .form-label {
+    font-weight: bold;
+  }
+
+  .form-container .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Para que el padding no aumente el ancho del campo */
+  }
+
+  .form-container .form-submit {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .form-container .form-submit:hover {
+    background-color: #0056b3;
+  }
+
+  .bg{
+    background-image: url(img/imagen\ pag\ bienvenida.jpg);
+    background-position: center;
+  }
+
+  body{
+    background: #cccccc;
+    background: linear-gradient(to right, #cccccc, #4d4444d0)
+  }
